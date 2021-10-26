@@ -1,2 +1,2 @@
 # MySite
-Preview: https://Valeritta.github.io/MySite.github.io/
+Preview: https://valeritta.github.io/MySite/
