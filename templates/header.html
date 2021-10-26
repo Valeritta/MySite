@@ -1,0 +1,20 @@
+<meta charset="UTF-8">
+<link href="../static/style.css" rel="stylesheet" type="text/css">
+<header class="header" id="header">
+    <div class="container">
+        <div class="header__inner">
+            <div class="header__logo">
+                <img src="../static/log.png" alt="" height="70">
+            </div>
+
+            <nav class="nav" id="nav">
+                <a class="nav__link" href="{{ url_for('home') }}" data-scroll="#home">На главную</a>
+                <a class="nav__link" href="#" data-scroll="#features">Билеты</a>
+                <a class="nav__link" href="{{ url_for('photos') }}" data-scroll="#works">Фото</a>
+                <a class="nav__link" href="{{ url_for('about') }}">О нас</a>
+                <a class="nav__link" href="#" data-scroll="#reviews">Блог</a>
+                <a class="nav__link" href="#" data-scroll="#download">Музыка</a>
+            </nav>
+        </div>
+    </div>
+</header>
